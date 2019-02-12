@@ -1,14 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nova Mono', monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#container {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  flex: auto;
+}
+
+#controlPanel, #generations {
+  margin: 10px;
+}
+
+#controlPanel button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 8px;
+  font-family: 'Nova Mono', monospace;
+  font-size: 1.1em;
+  width: 120px;
+}
+
+#controlPanel button:hover {
+  background: black;
+}
+
+#controlPanel button:focus {
+  outline: 0;
+}
+
+#controlPanel .sizeControl {
+  margin-top: 3px;
+}
+
+#controlPanel .sizeControl span {
+  font-family: 'Nova Mono', monospace;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 4px 8px;
+}
+
+#controlPanel .sizeControl button {
+  width: 40px;
+}
+
+#generations {
+  font-size: 1.75em;
+}
+
+#SpeedControl {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 760px) {
+  #generations {
+    font-size: 1em;
+  }
+
+  #controlPanel button {
+    font-size: 0.6em;
+    width: 160px;
+  }
+
 }
