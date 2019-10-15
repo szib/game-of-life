@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Generations = (props) => {
-  return (
-    <div id="generations">
-      Generation: {props.generations}
-    </div>
-  )
-}
+const Generations = props => {
+  return <div id="generations">Generation: {props.generations}</div>;
+};
 
-export default Generations
+export default Generations;

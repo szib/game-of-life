@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Nova+Mono');
+@import url("https://fonts.googleapis.com/css?family=Nova+Mono");
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Nova Mono', monospace;
+  font-family: "Nova Mono", monospace;
 }
 
 #container {
@@ -13,7 +13,8 @@ body {
   flex: auto;
 }
 
-#controlPanel, #generations {
+#controlPanel,
+#generations {
   margin: 10px;
 }
 
@@ -24,7 +25,7 @@ body {
   padding: 5px 10px;
   margin: 0 5px;
   border-radius: 8px;
-  font-family: 'Nova Mono', monospace;
+  font-family: "Nova Mono", monospace;
   font-size: 1.1em;
   width: 120px;
 }
@@ -42,7 +43,7 @@ body {
 }
 
 #controlPanel .sizeControl span {
-  font-family: 'Nova Mono', monospace;
+  font-family: "Nova Mono", monospace;
   font-size: 1.1em;
   font-weight: bold;
   border-radius: 5px;
@@ -71,5 +72,4 @@ body {
     font-size: 0.6em;
     width: 160px;
   }
-
 }
